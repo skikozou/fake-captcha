@@ -37,7 +37,7 @@
 			// 
 			// button1
 			// 
-			button1.Location = new Point(601, 368);
+			button1.Location = new Point(719, 373);
 			button1.Name = "button1";
 			button1.Size = new Size(187, 70);
 			button1.TabIndex = 0;
@@ -49,7 +49,7 @@
 			// 
 			pictureBox1.Location = new Point(12, 12);
 			pictureBox1.Name = "pictureBox1";
-			pictureBox1.Size = new Size(776, 350);
+			pictureBox1.Size = new Size(894, 350);
 			pictureBox1.TabIndex = 1;
 			pictureBox1.TabStop = false;
 			// 
@@ -74,7 +74,7 @@
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
-			ClientSize = new Size(800, 450);
+			ClientSize = new Size(918, 450);
 			Controls.Add(textBox1);
 			Controls.Add(button2);
 			Controls.Add(pictureBox1);

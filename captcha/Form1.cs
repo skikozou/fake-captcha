@@ -39,9 +39,9 @@ namespace captcha
 			System.Drawing.Pen p = new System.Drawing.Pen(Cfg.LineColor, Cfg.LineWidth);
 			for (int i = 0; i < Cfg.LineN; i++)
 			{
-				int LineFP = rand.Next(0, 776);
+				int LineFP = rand.Next(0, pictureBox1.Width);
 				int LineWidth = rand.Next(-200, 200);
-				g.DrawLine(p, LineFP, 0, LineFP + LineWidth, 350);
+				g.DrawLine(p, LineFP, 0, LineFP + LineWidth, pictureBox1.Height);
 			}
 			g.Dispose();
 
